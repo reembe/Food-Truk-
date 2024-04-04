@@ -85,6 +85,10 @@ public class MyFrame extends JFrame{
 
         this.setVisible(true);
     }
+    public String toString(){
+        return "this is the my frame class";
+    }
+        
 
     public void actionPerformed(ActionEvent e) {
 
